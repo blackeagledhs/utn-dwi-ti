@@ -4,6 +4,10 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Special Elite', cursive;
 */
+
+body{
+    background-color: #dd33dd;
+}
 .header {
     display: flex;
     
@@ -27,5 +31,5 @@ font-family: 'Special Elite', cursive;
 }
 
 .header__nav__sublist {
-    
+
 }

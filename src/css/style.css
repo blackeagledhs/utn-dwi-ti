@@ -1,35 +1,68 @@
+@import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Special+Elite&display=swap');
-
 /*
 font-family: 'Oswald', sans-serif;
 font-family: 'Special Elite', cursive;
 */
 
 body{
-   
+
 }
 .header {
-    display: flex;
-    
+    background: linear-gradient(to right, #313131, #f7f4f4);
+   
+   
 }
 
 .header__logo {
-    width: 5%;
-    height: auto;
+    width: 8%;
+    margin-left: 6%;
+}
+.header__nav__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.header__nav__top a{
+    color: #202020;
+    font-size: 3rem;
+    margin-right: 14%;
 }
 
-.header__nav {
-
+.header__nav__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
 }
-
 .header__nav__list {
-
+    list-style: none;
+    display: flex;
 }
 
-.header__nav__list__item {
-
+.header__nav__item {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7rem;
+    border: 1px solid #d84e4e;
+    width: 28%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #422d2d;
+    color: #f0f0f0;
+    margin: 20px;
 }
-
-.header__nav__sublist {
-
+.search {
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7rem;
+    border: 1px solid #d84e4e;
+    width: 19%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #422d2d;
+    color: #f0f0f0;
+    margin: 20px;
 }

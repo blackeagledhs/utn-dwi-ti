@@ -8,8 +8,11 @@ font-family: 'Special Elite', cursive;
 body{
 
 }
-.header {
-    background: linear-gradient(to right, #313131, #f7f4f4);
+
+
+/*--------Header--------------*/
+.header, .footer {
+    background: linear-gradient(to right, #222222, #f7f4f4);
    
    
 }
@@ -46,7 +49,7 @@ body{
     font-family: 'Oswald', sans-serif;
     font-size: 1.7rem;
     border: 1px solid #d84e4e;
-    width: 28%;
+    width: 150px;
     text-align: center;
     padding: 10px;
     border-radius: 50px;
@@ -55,14 +58,27 @@ body{
     margin: 20px;
 }
 .search {
-    border: none;
+    
     font-family: 'Oswald', sans-serif;
     font-size: 1.7rem;
     border: 1px solid #d84e4e;
-    width: 19%;
+    width: 350px;
     padding: 10px;
     border-radius: 50px;
-    background-color: #422d2d;
+    background-color: #b3afaf;
     color: #f0f0f0;
     margin: 20px;
+    padding-left: 10px;
+}
+
+/*----------------Home---------------------*/
+
+
+/*----------------Footer-------------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }

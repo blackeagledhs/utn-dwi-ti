@@ -1,4 +1,7 @@
-
+@import url('./contacto.css');
+@import url('./ofertas.css');
+@import url('./productos.css');
+@import url('./empresa.css');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Special+Elite&display=swap');
 /*
 font-family: 'Oswald', sans-serif;
@@ -56,6 +59,11 @@ body{
     background-color: #422d2d;
     color: #f0f0f0;
     margin: 20px;
+}
+
+.header__nav__item a {
+    text-decoration: none;
+    color: #f0f0f0;
 }
 .search {
     

@@ -65,3 +65,25 @@
     text-align: center;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    .empresa {
+        padding: 10px 7%;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    .empresa {
+        padding: 8px 3%;
+    }
+
+    .empresa__title {
+        font-size: 1.5rem;
+    }
+    
+    .empresa__about {        
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+}

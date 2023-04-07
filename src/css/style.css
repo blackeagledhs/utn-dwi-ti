@@ -16,8 +16,7 @@ body{
 /*--------Header--------------*/
 .header, .footer {
     background: linear-gradient(to right, #222222, #f7f4f4);
-   
-   
+
 }
 
 .header__logo {
@@ -88,5 +87,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
+}
+nav{
+    color: #f0f0f0;
+
 }

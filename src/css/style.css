@@ -1,0 +1,96 @@
+@import url('./contacto.css');
+@import url('./ofertas.css');
+@import url('./productos.css');
+@import url('./empresa.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Special+Elite&display=swap');
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Special Elite', cursive;
+*/
+
+body{
+
+}
+
+
+/*--------Header--------------*/
+.header, .footer {
+    background: linear-gradient(to right, #222222, #f7f4f4);
+
+}
+
+.header__logo {
+    width: 8%;
+    margin-left: 6%;
+}
+.header__nav__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.header__nav__top a{
+    color: #202020;
+    font-size: 3rem;
+    margin-right: 14%;
+}
+
+.header__nav__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.header__nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.header__nav__item {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7rem;
+    border: 1px solid #d84e4e;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #422d2d;
+    color: #f0f0f0;
+    margin: 20px;
+}
+
+.header__nav__item a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.search {
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7rem;
+    border: 1px solid #d84e4e;
+    width: 350px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #b3afaf;
+    color: #f0f0f0;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+/*----------------Home---------------------*/
+
+
+/*----------------Footer-------------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+nav{
+    color: #f0f0f0;
+
+}

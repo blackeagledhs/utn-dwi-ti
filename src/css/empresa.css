@@ -1,0 +1,67 @@
+.empresa {
+    padding: 10px 15%;
+}
+
+.empresa__section {
+
+}
+
+.empresa__title {
+    gap: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+.empresa__about {
+    padding: 25px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+
+.empresa__employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.employee__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #c04232;
+    border-radius: 25px;
+    margin: 30px;
+    background: linear-gradient(to bottom, #e29b61, #f0f0f0);
+    box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-webkit-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+-moz-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
+}
+
+.employee__card:hover {
+    scale: 120%;
+    cursor: pointer;
+}
+
+.employee__avatar {
+    width: 180px;
+    margin: auto 40px;
+}
+
+.employee__fullName {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.employee__position {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}

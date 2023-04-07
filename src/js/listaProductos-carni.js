@@ -4,7 +4,7 @@ const listaProducts = [
       nombre: "asado de Tira",
       descripcion: "asado de tira ideal para la parrilla.",
       precio: 1200,
-      imagen: "./productos-carni/asadoTira.jpg",
+      imagen: "assets/productos-carni/asadoTira.jpg",
       categoria: 'vacuno',
       destacado: true
   },   
@@ -13,7 +13,7 @@ const listaProducts = [
       nombre: "bife Ancho",
       descripcion: "carne premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/bifeAncho.jpg",
+      imagen: "assets/productos-carni/bifeAncho.jpg",
       categoria: 'vacuno',
       destacado: true
   },  
@@ -22,7 +22,7 @@ const listaProducts = [
       nombre: "bife Angosto",
       descripcion: "carne premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/bifeAngosto.jpg",
+      imagen: "assets/productos-carni/bifeAngosto.jpg",
       categoria: 'vacuno',
       destacado: true
   },  
@@ -31,7 +31,7 @@ const listaProducts = [
       nombre: "bife Cerdo",
       descripcion: "carne de cerdo seleccionada",
       precio: 1200,
-      imagen: "./productos-carni/bifeCerdo.jpg",
+      imagen: "assets/productos-carni/bifeCerdo.jpg",
       categoria: 'cerdo',
       destacado: true
   },
@@ -40,7 +40,7 @@ const listaProducts = [
       nombre: "bife de chorizo",
       descripcion: "carnepremium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/bifeChorizo.jpg",
+      imagen: "assets/productos-carni/bifeChorizo.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -49,7 +49,7 @@ const listaProducts = [
       nombre: "bondiola de cerdo",
       descripcion: "carne de cerdo seleccionada",
       precio: 1200,
-      imagen: "./productos-carni/bondiolaCerdo.jpg",
+      imagen: "assets/productos-carni/bondiolaCerdo.jpg",
       categoria: 'cerdo',
       destacado: true
   },
@@ -58,7 +58,7 @@ const listaProducts = [
       nombre: "chinchulin",
       descripcion: "menudencias seleccionadas",
       precio: 1200,
-      imagen: "./productos-carni/chinchulin.jpg",
+      imagen: "assets/productos-carni/chinchulin.jpg",
       categoria: 'menudencias',
       destacado: true
   },
@@ -67,7 +67,7 @@ const listaProducts = [
       nombre: "cuadrada",
       descripcion: "carnes premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/cuadrada.jpg",
+      imagen: "assets/productos-carni/cuadrada.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -76,7 +76,7 @@ const listaProducts = [
       nombre: "entraña",
       descripcion: "menudencias seleccionadas",
       precio: 1200,
-      imagen: "./productos-carni/entraña.jpg",
+      imagen: "assets/productos-carni/entraña.jpg",
       categoria: 'menudencias seleccionadas',
       destacado: true
   },
@@ -85,7 +85,7 @@ const listaProducts = [
       nombre: "lomo",
       descripcion: "carnes premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/lomo.jpg",
+      imagen: "assets/productos-carni/lomo.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -94,7 +94,7 @@ const listaProducts = [
       nombre: "matambre",
       descripcion: "carnes premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/matambre.jpg",
+      imagen: "assets/productos-carni/matambre.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -103,7 +103,7 @@ const listaProducts = [
       nombre: "morcilla",
       descripcion: "menudencias seleccionadas",
       precio: 1200,
-      imagen: "./productos-carni/morcilla.jpg",
+      imagen: "assets/productos-carni/morcilla.jpg",
       categoria: 'menudencias seleccionadas',
       destacado: true
   },
@@ -112,7 +112,7 @@ const listaProducts = [
       nombre: "peceto",
       descripcion: "carnes premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/peceto.jpg",
+      imagen: "assets/productos-carni/peceto.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -121,7 +121,7 @@ const listaProducts = [
       nombre: "pechito de cerdo",
       descripcion: "carne de cerdo seleccionada",
       precio: 1200,
-      imagen: "./productos-carni/pechitoCerdo.jpg",
+      imagen: "assets/productos-carni/pechitoCerdo.jpg",
       categoria: 'cerdo',
       destacado: true
   },
@@ -130,7 +130,7 @@ const listaProducts = [
       nombre: "pechuga",
       descripcion: "carne de pollo premium",
       precio: 1200,
-      imagen: "./productos-carni/pechuga.jpg",
+      imagen: "assets/productos-carni/pechuga.jpg",
       categoria: 'aves',
       destacado: true
   },
@@ -139,7 +139,7 @@ const listaProducts = [
       nombre: "pollo",
       descripcion: "carne de pollo premium",
       precio: 1200,
-      imagen: "./productos-carni/pollo.jpg",
+      imagen: "assets/productos-carni/pollo.jpg",
       categoria: 'aves',
       destacado: true
   },
@@ -148,7 +148,7 @@ const listaProducts = [
       nombre: "tomahawk",
       descripcion: "carne premium de altisima calidad",
       precio: 1200,
-      imagen: "./productos-carni/tomahawk.jpg",
+      imagen: "assets/productos-carni/tomahawk.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -157,7 +157,7 @@ const listaProducts = [
       nombre: "vacio",
       descripcion: "carne premium de altisimacalidad",
       precio: 1200,
-      imagen: "./productos-carni/vacio.jpg",
+      imagen: "assets/productos-carni/vacio.jpg",
       categoria: 'vacuno',
       destacado: true
   },
@@ -166,7 +166,7 @@ const listaProducts = [
       nombre: "chorizo",
       descripcion: "menudencias seleccionadas",
       precio: 1200,
-      imagen: "./productos-carni/chorizo.jpg",
+      imagen: "assets/productos-carni/chorizo.jpg",
       categoria: 'menudencias seleccionadas',
       destacado: true
   },

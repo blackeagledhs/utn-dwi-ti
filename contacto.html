@@ -35,10 +35,54 @@
        
     </header>
     
-    <main>
-       <br>
+    <main class="contact-form">
+        <div class="contact-form__container">
+            <div class="form">
+                <div class="form-intro">
+                    <h2 class="form-intro__title">¡Contactanos!</h2>
+                    <p class="form-intro__intro">Si quieres dejarnos una consulta o sugerencia completa el siguiente formulario ,con gusto te responderemos.</p>
+                </div>
+                <form class="form__form" action="">
+                    <div class="form__section">
+                        <label for="" class="form__label">Nombre y Apellido</label>
+                        <input type="text" name="name" class="form__input" placeholder="Nombre y Apellido" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="" class="form__label">Telefono</label>
+                        <input type="tel" name="phone" class="form__input" placeholder="Telefono" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="" class="form__label">Correo Electronico</label>
+                        <input type="email" name="email" class="form__input" placeholder="Correo Electronico" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="" class="form__label">Mensaje</label>
+                        <textarea name="mensaje" rows="10" class="form__input" placeholder="Escribe aqui tu mensaje"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="form__submit">
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-info__img">
+                    <img src="./assets/img/logo-carni-circle.png" alt="logo-empresa">
+                </div>
+                <div class="contact-info__container">
+                    <div class="contact-info__info">
+                        <ion-icon name="map"></ion-icon> <p>Calle Falsa 123 ,Springfield CP1234 ,Argentina.</p>
+                    </div>
+                    <div class="contact-info__info">
+                        <ion-icon name="call"></ion-icon> <p>+549-123-456-7890</p>
+                    </div>
+                    <div class="contact-info__info">
+                        <ion-icon name="mail-outline"></ion-icon> <p>contacto@email.com </p>
+                    </div>
 
-    </main>
+
+                </div>
+
+            </div>
+        </div>
+</main>
     
        <footer class="footer">
         <nav>
@@ -53,7 +97,8 @@
        </footer>
 
 
-
+       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
        <script src="./src/js/app.js"></script>
        <script src="./src/fontawesome/js/fontawesome.js"></script>
     

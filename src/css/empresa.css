@@ -1,3 +1,7 @@
+body{
+    background-color: #c5c5c5;
+  }
+  
 .empresa {
     padding: 10px 15%;
 }
@@ -37,7 +41,7 @@
     border: 1px solid #c04232;
     border-radius: 25px;
     margin: 30px;
-    background: linear-gradient(to bottom, #e29b61, #f0f0f0);
+    background: linear-gradient(to bottom, #e2bc9d, #f0f0f0);
     box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 -webkit-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);
 -moz-box-shadow: 15px -15px 27px 4px rgba(0,0,0,0.72);

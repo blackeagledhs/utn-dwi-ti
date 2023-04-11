@@ -1,3 +1,6 @@
+body{
+    background-color: #c5c5c5;
+}
 
 .productos {
 	margin: 50px 0;
@@ -15,6 +18,7 @@
     align-items: center;
     width: 350px;
     height: 400px;
+    background: linear-gradient(to bottom, #e2bc9d, #f0f0f0);
     box-shadow: 5px 5px 5px 5px #0505052d;
     padding: 10px;
     border-radius: 3%;
@@ -22,6 +26,7 @@
 }
 
 .producto:hover{
+    
     border: 2px solid  #193452;
 }
 

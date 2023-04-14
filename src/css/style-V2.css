@@ -9,7 +9,7 @@ font-family: 'Special Elite', cursive;
 */
 
 body{
-
+    background-color: #c5c5c5;
 }
 .ofertas{
     height: 100px;
@@ -130,7 +130,7 @@ body{
 
 .container-fluid{
     margin: auto;
-    background-color: #ceb5b5;
+   
     border: 1px solid gray;
 }
 
@@ -148,7 +148,7 @@ body{
 
 #PárrafosMain{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 40px;
     color: darkred;
     text-align: center;

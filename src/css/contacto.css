@@ -86,7 +86,7 @@ margin-bottom: 20px;
 
 .form__submit{
 
-background:rgb(84, 106, 249);
+background: #8f1a1a;
 display: inline-block;
 text-align: center;
 width: 90%;
@@ -100,7 +100,7 @@ box-shadow: 1px 9px 20px -5px
 }
 
 .form__submit:hover{
-  background: #4f59dc;
+  background: #d96685;
 }
 
 .contact-info{

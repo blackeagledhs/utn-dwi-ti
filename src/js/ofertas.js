@@ -7,7 +7,6 @@ function htmlCard(arrayProductos){
 
 
  arrayProductos.forEach(function(elemento){
-  console.log(elemento.nombre);
   let divProduct = document.createElement("div");
   divProduct.classList.add("producto");
 

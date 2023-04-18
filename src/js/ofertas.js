@@ -1,6 +1,4 @@
-
-const containerProducts = document.querySelector("#containerProducts")
-
+const containerProducts = document.querySelector("#containerProducts");
 
 function htmlCard(arrayProductos){
 
@@ -9,7 +7,6 @@ function htmlCard(arrayProductos){
 
 
  arrayProductos.forEach(function(elemento){
-
   let divProduct = document.createElement("div");
   divProduct.classList.add("producto");
 
@@ -39,6 +36,7 @@ function htmlCard(arrayProductos){
 
  containerProducts.append(fragment);
 }
+
 function addToCart(boton){
   
 
@@ -49,20 +47,6 @@ function addToCart(boton){
 
 
 
-htmlCard(listaProducts);
+let productosDestacados = listaProducts.filter((elemento) => elemento.destacado === true);
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-  
+htmlCard(productosDestacados);

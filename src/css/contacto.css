@@ -151,7 +151,8 @@ body {
   .contact-form__container {
 
     width: 90vw;
- 
+    padding: 10px;
+    gap: 5px;
   }
  
 

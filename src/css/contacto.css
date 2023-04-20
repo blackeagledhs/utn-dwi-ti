@@ -4,294 +4,232 @@
   
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
-  
-}
-body {
-  background-color: #c5c5c5;
-  margin:0;
+  margin: 0;
   padding: 0;
   
+}
+
+.contact{
+  display: grid;
   
+ 
+}
+  
+.contact-form{
+max-width: 1024px;
+min-width: 250px;
+background-color:#e2bc9d8c;
+color: #8f1a1a;
+border-radius: 14px;
+padding: 20px;
+display: grid;
+margin: 4%;
+
+}
+
+.contact-title{
+  font-size:25px;
+  font-weight: 500;
+  text-align: center;
+
+  margin-bottom:3px;
+}
+
+.contact-info{
+  display: grid;
+  gap: 2px;
+   
+}
+
+
+.contact-info__info{
+justify-content: center;
+display: inline-flex;
+align-items: center;
+
+
+}
+
+.contact-info__info ion-icon{
+  width: 13px;
+  height: 13px;
+  padding: 0;
+}
+
+.contact-info__info p{
+  font-size: 11px;
+  margin: 0;
+  margin-left:2px ;
+}
+
+.contact-intro__intro{
+
+margin: 0;
+text-align: center;
+}
+
+/*formulario*/
+
+.form{
+  margin-top: 10px;
+    display: grid;
+    gap: 5px;
+  
+  }
+
+
+.form__section {
+  display: grid;
+  gap:3px;
+}
+
+.form__label{
+  font-size: 16px;
+  margin-left: 3px;
+
+}
+.form__input{
+  font-size:13px ;
+  height: 30px;
+  padding-left: 4px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.688);
+}
+.form__textarea{
+  resize: none;
+  height: auto;
+  padding-left: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.688);
+}
+
+.form__submit{
+
+border: none;
+border-radius: 5px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.688);
+margin-top: 10px;
+background-color: #8f1a1a;
+color: #fff;
+cursor: pointer;
+}
+
+.form__submit:hover {
+  box-shadow: 0 0 14px #e3950e;
+
+}
+
+
+
+
+.contact-info__img{
+  margin: 20px;
+ display: grid;
+ 
+}
+
+.contact-info__img img{
+
+  max-width:200px;
+ justify-self: center;
+ border-radius: 100%;
+ box-shadow: 0 3px 30px rgba(0, 0, 0, 0.688);
+}
+
+@media (min-width:600px){
+
+  .contact-form{
+ 
+  
+    }
+    
+    .contact-title{
+      font-size:50px;
+      margin:auto;
+    
+    
+    }
+    
+    .contact-info{
+      font-size: 20px;
+      gap:10px;
+      justify-items: start;
+    
+       
+    }
+    
+    
+   
+    
+    .contact-info__info ion-icon{
+      height: 25px;
+      width: 25px;
+      
+     
+    }
+    
+    .contact-info__info p{
+      font-size: 20px;
+      
+    }
+    
+  
+    /*formulario*/
+    
+  
+    
+  
+    
+    .form__label{
+      font-size: 25px;
+      
+    
+    }
+    .form__input{
+      font-size:20px ;
+     
+    }
+   
+    
+    .contact-info__img img{
+    
+      max-width:280px;
+    
+    }
+
+  
+.contact-title{
+  grid-area: title;
+}
+
+.contact-info{
+  grid-area: info;
+
+
+}
+.contact-intro__intro{
+
+  grid-area: intro;
+}
+
+.form{
+ grid-area: form;
+}
+.contact-info__img{
+
+  grid-area: img;
 }
 
 .contact-form{
-  padding: 15px;
-  margin: auto;
+
+grid: 
+"title img"
+"info img"
+"form form"
 }
 
-/*contenedor del formulario*/
-.contact-form__container{
-  color: #962d2d;
-  font-size: 15px;
-  background-color:#e2bc9d8c;
-  border-radius: 20px;   
-  padding: 15px;
-  display: grid;
-  gap: 10px;
 }
-
-.form-intro__title{
-  font-size: 2em;
-  text-align: center;
-  
-}
-
-.contact-info__container,
-.form ,
-.form__section {
-  display: grid;
-  gap: 4px;
-}
-
-.contact-info__info{
- display: flex;
- align-items: center;
- padding: 2px;
- gap: 5px;
-} 
-
-.contact-info__info ion-icon{
-  font-size: 1.5em;
-}
-
-  .contact-info__info p{
-    margin:auto;
-    margin-left: 0;
-  }
-
-  .form-intro__intro{
-  font-size: 1em;
-  margin-top: 5px;
-  margin-bottom: 0;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 15px;
-  padding: 5px;
-  }
-  .form__section label {
-    font-size: 20px;
-
-  }
-  .form__section input {
-    border-radius: 7px;
-    border: none;
-    padding-left:10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px; 
-    box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-    background-color: #ffffff6c;
-
-  }
-  .form__section textarea {
-    border-radius: 7px;
-    border: none;
-    padding-left: 10px;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    resize: none;
-    box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-    background-color: #ffffff6c;
-  }
-
-.form__submit{
-  width: 100%;
-  margin-top: 2%;
-  background-color: #962d2d;
-  font-size: 1.5em;
-  border: none;
-  border-radius: 15px;
-  color: #ffffff;
-  box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-  
-
-}
-.form__submit:hover{
-  box-shadow: 0 0 14px rgb(255, 136, 0);
-
-}
-
-
-.contact-form__img{
-  
-  display: flex;
-  width:100%;
-  justify-content: center;
-}
-  
-.contact-form__img img{
-  width: 50%;
-  max-height: 200px;
-  max-width: 200px;  
-  
-}
-
-
-@media (min-width:600px){
-  .contact-form{
-display: grid;
-    padding: 20px;
-    max-width: 1024px;
-  
-
-  }
-  
-  /*contenedor del formulario*/
-  .contact-form__container{
-    color: #962d2d;
-    font-size: 15px;
-    background-color:#e2bc9d8c;
-    border-radius: 20px;   
-    padding: 15px;
-    display: grid;
-    gap: 10px;
-  }
-
-  .info-container{
-    display: grid;
-    
-  }
-  .form-intro__title{
-    font-size: 3em;
-    text-align:left;
-    
-    
-  }
-  
-  
-  .contact-info__info{
-   display:flex;
-   align-items: center;
-   padding: 2px;
-   gap: 5px;
-  } 
-  
-  .contact-info__info ion-icon{
-    font-size: 1.5em;
-  }
-  
-    .contact-info__info p{
-      margin:auto;
-      margin-left: 0;
-    font-size: 1.4em;
-    }
-  
-    .form-intro__intro{
-    font-size: 1.5em;
-    margin-top: 5px;
-    margin-bottom: 0;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 5px;
-  }
-  
-  
-    .form__section label {
-      font-size: 20px;
-  
-    }
-    .form__section input {
-      border-radius: 7px;
-      border: none;
-      padding-left:10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: 15px; 
-      box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-      background-color: #ffffff6c;
-  
-    }
-    .form__section textarea {
-      border-radius: 7px;
-      border: none;
-      padding-left: 10px;
-      font-size: 15px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      resize: none;
-      box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-      background-color: #ffffff6c;
-    }
-  
-  .form__submit{
-    width: 100%;
-    margin-top: 2%;
-    background-color: #962d2d;
-    font-size: 1.5em;
-    border: none;
-    border-radius: 15px;
-    color: #ffffff;
-    box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
-    
-  
-  }
-  .form__submit:hover{
-    box-shadow: 0 0 14px rgb(255, 136, 0);
-  
-  }
-  
-  
-  .contact-form__img{
-    
-    display: grid;
-    width:100%;
-    justify-content:center;
-    
-  }
-    
-  .contact-form__img img{
-  
-display: none;
-  }
-    
-
-    
-
-}
-
-@media only screen and (max-width: 576px) {
-  .contact-form {
-    width: 100vw;
-    height: 200vh;
-  }
-
-  .contact-form__container {
-
-    width: 90vw;
-    padding: 5px;
-    gap: none;
-  }
- 
-
-  .form__form {
-    width: 90vw;
-  }
-
-  .form-intro {
-    width: 70vw;
-    margin-left: -90px;
-  }
-
-  .form-intro__intro {
-    color: #ffffff;
-    margin-bottom: 15px;
-    text-align: justify;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
